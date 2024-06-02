@@ -1,0 +1,99 @@
+.panel_navbar{
+    
+}
+
+.contenedor_navbar{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: #57a0ca;
+    box-shadow:  10px 10px 20px #437b9c,
+                -10px -10px 20px #6bc5f8;
+
+    .navbar_home{
+
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .list{
+        position: relative;
+        list-style: none;
+        display: flex;
+        li{
+            list-style: none;
+        }
+        a{
+            padding:  10px;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline 2px;
+        }
+        
+
+
+
+        .list-desplegable{
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            display: none;
+            width: 60%;
+            top: 170%;
+            right: 3%;
+            background: linear-gradient(145deg, #5dabd8, #4e90b6);
+            box-shadow:  10px 10px 19px #437b9c,
+                        -10px -10px 19px #6bc5f8;
+            transition: all .9s;
+
+            li{
+                padding: 10px 20px;
+                a{
+                    text-decoration: none;
+                }
+            }
+            li:hover:nth-child(1){
+                background: #00668d;
+            }
+            .cerrarsesion{
+                width: 100%;
+                border-radius: 3px;
+                border: none;
+                color: white;
+                font-family:$fuente-principal;
+                padding: 5px ;
+                border-radius: 50px;
+                border-radius: 50px;
+                border-radius: 50px;
+                border-radius: 50px;
+                background: linear-gradient(145deg, #398bb7, #30759a);
+                box-shadow:  7px 7px 14px #2b6b8c,
+                            -7px -7px 14px #3f99ca;
+                transition: all 0.2s;
+            }
+            .cerrarsesion:hover{
+                box-shadow: none;
+                font-size: 13px;
+            }
+        }
+        .active{
+            display: block;
+        }
+
+        .ocultar{
+            display: none;
+        }
+        .mostrar{
+            display: block;
+        }
+    }
+    
+    
+}

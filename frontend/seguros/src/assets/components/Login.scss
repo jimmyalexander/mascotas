@@ -1,0 +1,70 @@
+.panel_login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .login_img{
+        border-radius: 50px;
+        background: #57a0ca;
+        box-shadow: inset 6px 6px 12px #437b9c,
+                    inset -6px -6px 12px #6bc5f8;
+                    overflow: hidden;
+        padding: 20px;
+
+        img{
+            border-radius: 50px;
+        }
+    }
+}
+.login_formulario{
+    margin-top: 3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #5dabd8, #4e90b6);
+    box-shadow:  6px 6px 12px #437b9c,
+                -6px -6px 12px #6bc5f8;
+    padding: 15px;
+    width: 40%;
+    label{
+        margin-left: 20px ;
+        padding: 5px;
+        width: 100%;  
+    }
+    input{
+        color: gray;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        margin-left: 20px ;
+        margin-bottom: 5px;
+        padding: 5px;
+        width: 100%;
+        border-radius: 50px;
+        background: $color-principal;
+        box-shadow: inset 23px 23px 46px #daebf5,
+            inset -23px -23px 46px #daebf5;
+    }
+    button{
+      @include boton;
+    }
+    button:hover{
+        box-shadow: none;
+        font-size: 13px;
+    }
+    a{
+        margin-left: 20px;
+        text-decoration: none;
+        color:white;
+    }
+    a:hover{
+        text-decoration: underline 2px;
+    }
+}

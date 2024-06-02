@@ -1,0 +1,74 @@
+.panel_userlist{
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    table{
+        border: 1px solid gray;
+    }
+    tr{
+        background-color: $color-secundario
+    }
+
+    form{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 5%;
+        border-radius: 50px;
+        border-radius: 50px;
+        background: linear-gradient(145deg, #5dabd8, #4e90b6);
+        box-shadow:  6px 6px 12px #437b9c,
+                    -6px -6px 12px #6bc5f8;
+        margin-top: 3%;
+        padding: 15px;
+        position: relative;
+        width: 50%;
+        label{
+            margin-left: 20px ;
+            padding: 5px;
+            width: 100%;  
+        }
+        input{
+            color: gray;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            margin-left: 20px ;
+            margin-bottom: 5px;
+            padding: 5px;
+            width: 50%;
+            border-radius: 50px;
+            background: $color-principal;
+            box-shadow: inset 23px 23px 46px #daebf5,
+                inset -23px -23px 46px #daebf5;
+            position: absolute;
+            left: 20%;
+        }
+        button{
+           @include boton;
+    
+        }
+        button:hover{
+            box-shadow: none;
+            font-size: 13px;
+        }
+        .radio{
+            display: flex;
+            align-items: center;
+            .radio_password{
+                width: 10px;
+                height: 10px;
+            }
+        }
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+            color:white;
+        }
+        a:hover{
+            text-decoration: underline 2px;
+        }
+    }
+}

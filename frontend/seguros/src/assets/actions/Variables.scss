@@ -1,0 +1,23 @@
+$color-principal: #9bd5fb ;
+$color-secundario :#57a0ca ;
+$fuente-principal:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+@mixin boton() {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family:$fuente-principal;
+    padding: 5px ;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #398bb7, #30759a);
+    box-shadow:  7px 7px 14px #2b6b8c,
+                 -7px -7px 14px #3f99ca;
+    transition: all 0.2s;
+    
+}
